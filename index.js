@@ -1,17 +1,19 @@
 var animal = 'dog'
 
-function myAnimal() {
-  // You should not need to modify this function
-  return animal
-}
-
 function outerFunc() {
+
+  function myAnimal() {
+  // You should not need to modify this function
+    return animal
+  }
+
+  
   function yourAnimal() {
     
     if (animal === 'dog')
       var animal1 = 'cat'
       animal = animal1
-   
+      
     return animal
     }
     
