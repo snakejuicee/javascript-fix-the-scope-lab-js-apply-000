@@ -7,9 +7,12 @@ function myAnimal() {
 
   function yourAnimal() {
     
+    if (animal === 'dog')
+      var animal1 = 'cat'
+      animal = animal1
    
-      
-        return animal
+    return animal
+    
   }
   
   
