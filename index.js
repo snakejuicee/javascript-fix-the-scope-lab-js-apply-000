@@ -5,6 +5,7 @@ function myAnimal() {
   return animal
 }
 
+function outerFunc() {
   function yourAnimal() {
     
     if (animal === 'dog')
@@ -12,6 +13,7 @@ function myAnimal() {
       animal = animal1
    
     return animal
+    }
     
   }
   
