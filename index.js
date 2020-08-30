@@ -7,15 +7,9 @@ function myAnimal() {
 
   
 function yourAnimal() {
-  
-  function innerAnimal() {
-    if (animal === 'dog')
-      var animal1 = 'cat'
-      animal = animal1
-      return animal
-  }
+  var animal = 'cat';
       
-  return innerAnimal()
+  return animal;
 }
     
   
