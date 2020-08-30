@@ -1,23 +1,22 @@
 var animal = 'dog'
 
-function outerFunc() {
-
-  function myAnimal() {
+function myAnimal() {
   // You should not need to modify this function
-    return animal
-  }
+  return animal
+}
 
   
-  function yourAnimal() {
-    
+function yourAnimal() {
+  
+  function innerAnimal() {
     if (animal === 'dog')
       var animal1 = 'cat'
       animal = animal1
-      
-    return animal
-    }
-    
   }
+      
+  return animal
+}
+    
   
   
 function add2(n) {
